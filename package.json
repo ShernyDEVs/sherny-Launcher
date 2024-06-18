@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Sherny-Launcher",
+    "preductname": "Sherny Launcher",
     "version": "2.0.7",
     "description": "Launcher Mincraft pour le serveur Selvania",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "Ethan, luuxis, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://media.discordapp.net/attachments/1007517215035236372/1132441481597177886/ajoloteNp5.png?ex=6672b510&is=66716390&hm=2a1148c21cc6c47acc652319ee6fbcf344be17981df6bbefc8cd92890b8ed290&=&format=webp&quality=lossless&width=671&height=671"
     },
     "license": "CCANC",
     "nodemonConfig": {
