@@ -12,5 +12,17 @@
         <!-- Aquí puedes cargar la lista de mods -->
     </div>
     <script src="js/scripts.js"></script>
+    <script>
+        fetch('https://mi-servidor.com/mods-list.json')
+            .then(response => response.json())
+            .then(mods => {
+                const modsList = document.getElementById('mods-list');
+                mods.forEach(mod => {
+                    const modElement = document.createElement('div');
+                    modElement.textContent = mod.name;
+                    modsList.appendChild(modElement);
+                });
+            });
+    </script>
 </body>
 </html>
